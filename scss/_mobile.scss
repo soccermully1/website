@@ -1,9 +1,15 @@
 // Widescreens
 @include mediaXl {
+  .projects {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 // Desktops laptop
 @include mediaLg {
+  .projects {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 // Tablets
